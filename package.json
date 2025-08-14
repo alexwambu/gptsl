@@ -1,0 +1,16 @@
+{
+  "name": "gbt-deployer",
+  "version": "1.0.0",
+  "main": "deploy.js",
+  "scripts": {
+    "deploy": "npx hardhat run deploy.js --network gbt"
+  },
+  "dependencies": {
+    "@chainlink/contracts": "^0.8.0",
+    "@nomiclabs/hardhat-ethers": "^2.2.1",
+    "@openzeppelin/contracts": "^4.9.3",
+    "dotenv": "^16.3.1",
+    "ethers": "^6.7.0",
+    "hardhat": "^2.22.1"
+  }
+}
